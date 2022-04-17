@@ -1,0 +1,348 @@
+body{
+  background: linear-gradient(to right, rgb(212, 223, 218), rgb(62, 226, 131),rgb(243, 247, 245));  
+  
+
+}
+
+
+#joker-background {
+  background-image: url('joker.jpeg'); 
+  background-size:100% ; 
+  background-repeat: no-repeat ;
+  
+  
+ } 
+ 
+ #second-background{
+  background-image: url('https://www.showbizjunkies.com/wp-content/uploads/2020/05/ozark-season2-episode7-1280x720.jpg'); 
+  background-size: 100% ; 
+  background-repeat: no-repeat ;
+ } 
+ #third-background{
+  background-image: url('movie3.jpg'); 
+  background-size: 100% ; 
+  background-repeat: no-repeat ;
+ } 
+
+header {
+
+    padding: 30px 0px 30px 50px;
+    height: 100%;
+    
+  }
+    
+
+    .logo-wrapper {
+        margin: 0 auto;
+        width: 100%;}
+
+        img#logo {
+                width: 140px;
+                height: 85px;
+        
+    }
+
+
+     nav#primary {
+        margin-top: 0px;
+      position: fixed;} 
+
+        a{
+            color: white;
+            font-weight: 100;
+            letter-spacing: 2.15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: large;
+            
+        }
+        
+    
+       #line-down-menu{
+         position: absolute;
+         background-color: white;
+         width: 1px;
+         height: 1000px;
+         margin-top: 35px;
+         margin-left: 16px;
+         
+       }
+       #line-next-to-menu{
+        position: absolute;
+        background-color: white;
+        width: 1px;
+        height: 1000px;
+        margin-left: 75%;
+        margin-bottom: 0px;
+       }
+
+       #line-vertical{
+        position: absolute;
+        background-color: white;
+        width: 320px;
+        height: 1px;
+        margin-left: 75%;
+        margin-top: 50px;
+
+
+       }
+
+       .dot1 {
+         position: absolute;
+         width: 7px;
+         height: 7px;
+         background-color: white;
+         border-radius: 50%;
+         margin-left: 13px;
+         margin-top: 530px;
+
+       }
+       .dot2 {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 13px;
+        margin-top: 560px;
+
+      }
+      .dot3 {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 13px;
+        margin-top: 590px;
+
+      }
+      .dot4 {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 13px;
+        margin-top: 620px;
+
+      }
+    
+
+
+
+        
+        #synopsis {
+
+          color: white;
+           font-size: 20px;
+            font-weight: 700;
+            font-family: 'Noto Serif', serif;
+            width: 450px;
+            top: 100px;
+            position: absolute;
+            padding-left: 9%;
+                    }
+       
+        .container {
+          display: inline-block;
+          cursor: pointer;
+          margin-top: 0px;
+          margin-right: 70px;
+        }
+        
+        .bar1, .bar2, .bar3 {
+          width: 35px;
+          height: 2px;
+          background-color: white;
+          margin: 6px 0;
+          transition: 0.4s;
+        }
+        
+        .change .bar1 {
+          -webkit-transform: rotate(-45deg) translate(-7px, 4px);
+          transform: rotate(-45deg) translate(-7px, 4px);
+        }
+        
+        .change .bar2 {opacity: 0;}
+        
+        .change .bar3 {
+          -webkit-transform: rotate(45deg) translate(-6px, -6px);
+          transform: rotate(45deg) translate(-6px, -6px);
+        }
+
+        #social-icon{
+          position: absolute;
+          margin-left: 86%;
+        margin-top: 0;
+        font-size: 30px;
+        }
+
+        #right-info{
+          color: white;
+          position: relative;
+          margin-top: 50px;
+          margin-left: 82%;
+        }
+
+        #learn-more{
+          color: white;
+          font-size: 25px;
+          font-weight: 800;
+          position: absolute;
+          left: 250px;
+          top: 490px; 
+          font-family: sans-serif;
+
+
+        }
+        #next-to-dot-text{
+          color: white;
+          font-size: 20px;
+          font-weight: 800;
+          position: relative;
+          left:90px;
+          top: 540px; 
+        }
+
+
+
+
+
+
+
+        .carousel {
+          margin-left: 1%;
+          margin-right: 1%;
+          margin-top: 1%;
+           
+      }
+      
+      ul.slides {
+          display: block;
+          position: relative;
+          height: 710px;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          list-style: none;
+      }
+      
+      .slides * {
+          user-select: none;
+          -ms-user-select: none;
+          -moz-user-select: none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+          -webkit-touch-callout: none;
+      }
+      
+      ul.slides input {
+          display: none; 
+      }
+      
+      
+      .slide-container { 
+          display: block; 
+      }
+      
+      .slide-image {
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          opacity: 0;
+          transition: all .7s ease-in-out;
+      }   
+      
+      .slide-image img {
+          width: auto;
+          min-width: 100%;
+          height: 100%;
+      }
+      
+      .carousel-controls {
+          position: relative;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 999;
+          font-size: 100px;
+          line-height: 600px;
+          color: #fff;
+      }
+      
+      .carousel-controls label {
+          display: none;
+          position: absolute;
+          padding: 0 20px;
+          opacity: 0;
+          transition: opacity .2s;
+          cursor: pointer;
+      }
+      
+      .slide-image:hover + .carousel-controls label{
+          opacity: 0.5;
+      }
+      
+      .carousel-controls label:hover {
+          opacity: 1;
+      }
+      
+      .carousel-controls .prev-slide {
+         
+        width: 1%;
+          text-align: left;
+          left: 0;
+          
+      }
+      
+      .carousel-controls .next-slide {
+          width: 2%;
+          text-align: right;
+          right: 0;
+      }
+      
+      .carousel-dots {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 20px;
+          z-index: 999;
+          text-align: center;
+      }
+      
+      .carousel-dots .carousel-dot {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: #fff;
+          opacity: 0.5;
+          margin: 10px;
+      }
+      
+      input:checked + .slide-container .slide-image {
+          opacity: 1;
+          transform: scale(1);
+          transition: opacity 1s ease-in-out;
+      }
+      
+      input:checked + .slide-container .carousel-controls label {
+           display: block; 
+      }
+      
+      input#img-1:checked ~ .carousel-dots label#img-dot-1,
+      input#img-2:checked ~ .carousel-dots label#img-dot-2,
+      input#img-3:checked ~ .carousel-dots label#img-dot-3,
+      input#img-4:checked ~ .carousel-dots label#img-dot-4,
+      input#img-5:checked ~ .carousel-dots label#img-dot-5,
+      input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+        opacity: 1;
+      }
+      
+      
+      input:checked + .slide-container .nav label { display: block; }
+      
+     

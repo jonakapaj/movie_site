@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Movie</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="mywebpage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+  <div>
+    <div class="carousel">
+      <ul class="slides">
+        <input type="radio" name="radio-buttons" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide-image">
+            <header id="joker-background" style="height: 200%;">
+
+
+
+
+              <div class="logo-wrapper text-center">
+
+              </div>
+
+
+              <nav id="primary" class="text-center">
+
+
+
+                <div class="container" onclick="myFunction(this)"
+                  class="position-absolute top-0 start-50 translate-middle">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+
+
+
+
+                <a href="/" style="margin-right: 80px; ">ABOUT</a>
+                <a href="/" style="margin-right: 80px;">FEATURED</a>
+                <a href="/" style="margin-right: 80px;">VIDEOS</a>
+                <a href="/" style="margin-right: 80px;">GALLERY</a>
+
+              </nav>
+
+              <P style="position: absolute;
+                         margin-left: 77%;
+                         margin-top: 10px; color: gray; 
+                         font-family: Verdana, Geneva, Tahoma, sans-serif;
+                         font-weight: 700; font-size: 20px;">
+                FOLLOW US</P>
+
+              <div id="social-icon">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+              </div>
+
+
+              <div id="line-down-menu"></div>
+              <div id="line-next-to-menu"></div>
+              <div id="line-vertical"></div>
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+              <div class="dot4"></div>
+
+
+
+
+
+
+
+              <div id="synopsis">
+                <h1 style="font-size: 70px; font-family: monospace; margin-bottom: 0;">JOKER</h1>
+                <p>The movie centers around the iconic arch nemesis and is an original,standalone story not seen before
+                  on the
+                  big screen. Philips' exploration of Arthur Fleck a man disregarded by society, is not only a gritty
+                  character
+                  study, but also a broader cautionary tale.</p>
+              </div>
+
+              <div id="learn-more"> <a href="">LEARN MORE</a> </div>
+              <div id="next-to-dot-text" style="color: rgb(51, 47, 47); font-weight: 700; font-size: 20px;">OI</div>
+              <div id="next-to-dot-text" style="color: rgb(51, 47, 47); font-weight: 700; font-size: 20px;">ACTORS
+              </div>
+              <div id="next-to-dot-text">JOAQUIN PHOENIX </div>
+
+
+
+
+
+
+
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">PREMIERE</p>
+                <p>4 OCTOBER 2019</p>
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">DIRECTOR</p>
+                <p>Tod Phillips</p>
+
+
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">MUSIC BY</p>
+                <p>Hildur Guðnadóttir</p>
+
+
+
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">GENRE</p>
+                <p>Suspense,Thriller</p>
+
+
+              </div>
+
+
+            </header>
+          </div>
+          <div class="carousel-controls">
+            <label for="img-3" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-2" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-2" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <header id="second-background">
+
+
+
+
+              <div class="logo-wrapper text-center">
+
+              </div>
+
+
+              <nav id="primary" class="text-center">
+
+
+                <div class="container" onclick="myFunction(this)"
+                  class="position-absolute top-0 start-50 translate-middle">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+
+
+
+
+                <a href="/" style="margin-right: 80px; ">ABOUT</a>
+                <a href="/" style="margin-right: 80px;">FEATURED</a>
+                <a href="/" style="margin-right: 80px;">VIDEOS</a>
+                <a href="/" style="margin-right: 80px;">GALLERY</a>
+
+              </nav>
+
+              <P
+                style="position: absolute;
+              margin-left: 77%;
+            margin-top: 10px; color: rgb(230, 210, 210); font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 700; font-size: 20px;">
+                FOLLOW US</P>
+
+              <div id="social-icon">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+              </div>
+
+
+              <div id="line-down-menu"></div>
+              <div id="line-next-to-menu"></div>
+              <div id="line-vertical"></div>
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+              <div class="dot4"></div>
+
+
+
+
+
+
+              <div id="synopsis">
+                <h1 style="font-size: 70px; font-family: monospace; margin-bottom: 0;">OZARK</h1>
+                <p>With their family abruptly forced to relocate from Chicago to the eerie Ozark Lakes, Marty and Wendy
+                  must navigate local personalities, a corrupt sheriff, and lore of the Ozark's ancestral population in
+                  order to launder money and keep their family alive- inadvertently becoming kingpins in the process.
+                </p>
+              </div>
+
+              <div id="learn-more"> <a href="">LEARN MORE</a> </div>
+              <div id="next-to-dot-text" style="color: rgb(204, 192, 192); font-weight: 700; font-size: 20px;">OI</div>
+              <div id="next-to-dot-text" style="color: rgb(204, 192, 192); font-weight: 700; font-size: 20px;">ACTORS
+              </div>
+              <div id="next-to-dot-text">JULIA GARNER</div>
+
+
+
+
+
+
+
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">PREMIERE</p>
+                <p>21 JULY 2017</p>
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">DIRECTOR</p>
+                <p>Robin Wright</p>
+
+
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">MUSIC BY</p>
+                <p>Phil McGowan</p>
+
+
+
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">GENRE</p>
+                <p>Drama,Thriller,Crime</p>
+
+
+              </div>
+
+
+            </header>
+          </div>
+          <div class="carousel-controls">
+            <label for="img-1" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-3" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-3" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <header id="third-background">
+
+
+
+
+              <div class="logo-wrapper text-center">
+
+              </div>
+
+
+              <nav id="primary" class="text-center">
+
+
+
+                <div class="container" onclick="myFunction(this)"
+                  class="position-absolute top-0 start-50 translate-middle">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+
+
+
+
+                <a href="" style="margin-right: 80px; ">ABOUT</a>
+                <a href="/" style="margin-right: 80px;">FEATURED</a>
+                <a href="/" style="margin-right: 80px;">VIDEOS</a>
+                <a href="/" style="margin-right: 80px;">GALLERY</a>
+
+              </nav>
+
+              <P
+                style="position: absolute;
+                margin-left: 77%;
+              margin-top: 10px; color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 700; font-size: 20px;">
+                FOLLOW US</P>
+
+              <div id="social-icon">
+                <a href="" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+              </div>
+
+
+              <div id="line-down-menu"></div>
+              <div id="line-next-to-menu"></div>
+              <div id="line-vertical"></div>
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+              <div class="dot4"></div>
+
+
+
+
+
+
+              <div id="synopsis">
+                <h1 style="font-size: 50px; font-family: monospace; margin-bottom: 20px; margin-top: 60px;">Captain
+                  America</h1>
+                <p>As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger
+                  and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the
+                  Winter Soldier. ... Steve Rogers is coming to grips with living in modern America after being frozen
+                  in ice for 50 years.</p>
+              </div>
+
+              <div id="learn-more"> <a href="">LEARN MORE</a> </div>
+              <div id="next-to-dot-text" style="color: rgb(51, 47, 47); font-weight: 700; font-size: 20px;">OI</div>
+              <div id="next-to-dot-text" style="color: rgb(51, 47, 47); font-weight: 700; font-size: 20px;">ACTORS
+              </div>
+              <div id="next-to-dot-text">CHRIS EVANS </div>
+
+
+
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">PREMIERE</p>
+                <p> 19 JULY 2011</p>
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">DIRECTOR</p>
+                <p>Anthony Russo</p>
+
+
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">MUSIC BY</p>
+                <p>Alan Silvestri</p>
+
+
+
+              </div>
+              <div id="right-info">
+                <p style="color: lightgray; font-weight: 700; font-size: 20px;">GENRE</p>
+                <p>Superhero,Adventure</p>
+
+
+              </div>
+
+
+            </header>
+          </div>
+          <div class="carousel-controls">
+            <label for="img-2" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-1" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <div class="carousel-dots">
+          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+          <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <script src="mywebpage.js"></script>
+</body>
+
+
+</html>
